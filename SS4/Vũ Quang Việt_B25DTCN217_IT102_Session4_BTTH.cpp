@@ -9,8 +9,10 @@ int main(){
 	scanf("%f", &b);
 	
 	int Tuoi;
-	if(1900>=a && a>2025)
+	if(1900>=a || a>2025){
 	   printf("Nam sinh ko hop le \n");
+	   return 1;
+	}
 	   
 	printf("\nThong tin sinh vien: \n");
 	printf("Nam sinh: %d \n", a);
@@ -30,3 +32,4 @@ int main(){
 	  printf("Diem nhap ko hop le");
 	return 0;
 }
+
