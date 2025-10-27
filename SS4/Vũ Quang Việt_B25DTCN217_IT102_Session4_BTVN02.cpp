@@ -4,9 +4,9 @@ int main(){
 	printf("Nhap so nguyen bat ki: ");
 	scanf("%d", &n);
 	if(n % 2 == 0) {
-		printf("Day la so chan");
+		printf("%d la so chan", n);
 	} else {
-		printf("Day la so le");
+		printf("%d la so le", n);
 	}
 	return 0;
 }
