@@ -15,15 +15,16 @@ int main() {
         return 1;
     }
 
-    if (soDien <= 50)
+    if (soDien < 50)
         printf("0<= So dien <50");
     else if (soDien < 100)
         printf("50<= So dien <100");
     else if (soDien < 150)
         printf("100<= So dien <150");
-    else if (soDien <= 200)
+    else if (soDien < 200)
         printf("150<= So dien <200");
     else
         printf("200<= So dien");
     return 0;
 }
+
