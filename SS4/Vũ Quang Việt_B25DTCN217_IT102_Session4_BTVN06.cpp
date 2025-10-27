@@ -16,7 +16,7 @@ int main(){
 	    return 1;
 	}
 	
-	if(soDien<=50)
+	if(soDien<50)
 		tien=soDien * 10000;
 	else if(soDien<100)
 	    tien=50*10000 + (soDien-50)*15000;
@@ -31,4 +31,5 @@ int main(){
 	printf("Tien dien tieu thu: %lld VND \n");
 	return 0;
 }
+
 
