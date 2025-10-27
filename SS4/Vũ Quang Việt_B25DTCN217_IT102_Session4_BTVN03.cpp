@@ -3,17 +3,16 @@ int main(){
 	int n;
 	printf("Nhap so nguyen bat ki: ");
 	scanf("%d", &n);
-	if(n % 3 == 0){
-		printf("So nay chia het cho 3 \n");
-	} else {
-	if(n % 5 ==0){
-		printf("So nay chia het cho 5 \n");
-	} else {
-	if(n % 15 ==0){
-		printf("So nay chia het cho 3 va 5 \n");
-	} else {
-		printf("So nay ko chia het cho 3 va 5 \n");
-	}}}
+	if(n % 3 == 0)
+		printf("%d cho 3 \n", n);
+    else
+	if(n % 5 ==0)
+		printf("%d chia het cho 5 \n", n);
+	else
+	if(n % 15 ==0)
+		printf("%d chia het cho 3 va 5 \n", n);
+	else
+		printf("%d ko chia het cho 3 va 5 \n", n);
 	return 0;
 }
-	
+
